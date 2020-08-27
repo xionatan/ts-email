@@ -1,0 +1,100 @@
+body {
+  font-size: .875rem;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+}
+
+main {
+	padding-top: 4rem;
+}
+
+.sticky-top {
+    position: fixed;
+    width: 100%;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+.bg-dark {
+    background-color: #0a37f0!important;
+}
+
+.bg-light {
+    background-color: #F4F6F8!important;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgb(232, 232, 232);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 2rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 1.7rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 600;
+  color: #000;
+}
+
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+  color: #0a37f0;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+pre, code {
+  margin: 0;
+  padding: 0;
+}
+
+.preview-container {
+  padding: 20px;
+  background: #FFF;
+  border: 1px solid #e8e8e8;
+}

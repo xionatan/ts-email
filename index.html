@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+	<head profile="http://www.w3.org/2005/10/profile">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Tradeshift E-mail Templates (Guideline)</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+		<link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="ocean.css">
+		<link rel="icon" type="image/png" href="assets/favicon-32x32.png">
+		<script src="assets/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+			<a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index.html"><img src="assets/logo_Tradeshift.png" /></a>
+			<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+					<div class="sidebar-sticky">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Framework</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-header.html">Header</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-imagebanner.html">Banner Image</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-summary.html">Summary (Text)</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-plaintext.html">Plain Text</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-image.html">Image</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-bulletlist.html">Bullet List</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-table.html">Documents (Table)</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-message-quote.html">Messages / Quotes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-collaboration.html">Collaboration</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-actionbutton.html">Action Button</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="email-footer.html">Footer</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="copytext_patterns.html">Copytext (Patterns)</a>
+							</li>
+						</ul>
+
+						<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-5 mb-1 text-muted">
+							<span>Examples</span>
+						</h6>
+						
+						<ul class="nav flex-column mb-2">
+							<li class="nav-item">
+								<a class="nav-link" href="email-examples.html">View Examples</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 mb-4">
+					<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+						<h1 class="h2">Framework</h1>
+					</div>
+					
+					<p>The basic e-mail framework (boilerplate) represents the base code to be used in each e-mail template. It includes the standard HTML code (tested in all major e-mail apps) with commented lines wich need to be pre-filled with relevant data (such lines asta TITLE, INBOX PREVIEW TEXT).</p>
+					<p>The code provided should be used <strong>AS IS</strong> and should not be altered no matter what! Any modular data (CONTENT) should be put into the body of the basic framework.</p>
+					
+					<div class="mt-5">
+						<div class="row">
+							<div class="col">
+								<h4>Preview</h4>
+								<div class="preview-container">
+									<!--[if mso]>
+										<style>
+											* {
+												font-family: Arial, sans-serif !important;
+											}
+										</style>
+									<![endif]-->
+									<!--[if !mso]><!-->
+										<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+									<!--<![endif]-->
+									<style>
+										html,
+										body {
+											margin: 0 auto !important;
+											padding: 0 !important;
+											height: 100% !important;
+											width: 100% !important;
+										}
+										* {
+											-ms-text-size-adjust: 100%;
+											-webkit-text-size-adjust: 100%;
+										}
+										div[style*="margin: 16px 0"] {
+											margin:0 !important;
+										}
+										table,
+										td {
+											mso-table-lspace: 0pt !important;
+											mso-table-rspace: 0pt !important;
+										}
+										table {
+											border-spacing: 0 !important;
+											border-collapse: collapse !important;
+											table-layout: fixed !important;
+											margin: 0 auto !important;
+										}
+										table table table {
+											table-layout: auto;
+										}
+										img {
+											-ms-interpolation-mode:bicubic;
+										}
+										*[x-apple-data-detectors],
+										.x-gmail-data-detectors,
+										.x-gmail-data-detectors *,
+										.aBn {
+											border-bottom: 0 !important;
+											cursor: default !important;
+											color: inherit !important;
+											text-decoration: none !important;
+											font-size: inherit !important;
+											font-family: inherit !important;
+											font-weight: inherit !important;
+											line-height: inherit !important;
+										}
+										.a6S {
+											display: none !important;
+											opacity: 0.01 !important;
+										}
+										img.g-img + div {
+											display:none !important;
+										}
+										@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+											.email-container {
+												min-width: 375px !important;
+											}
+										}
+										@media screen and (max-width: 480px) {
+											center {
+												padding: 10px;
+											}
+											.email-container p {
+												font-size: 13px !important;
+												line-height: 16px !important;
+											}
+										}
+									</style>
+									<!--[if gte mso 9]>
+									<xml>
+										<o:OfficeDocumentSettings>
+											<o:AllowPNG/>
+											<o:PixelsPerInch>96</o:PixelsPerInch>
+										</o:OfficeDocumentSettings>
+									</xml>
+									<![endif]-->
+									<div style="background: #F4F6F8; margin: 0; mso-line-height-rule: exactly;">
+										<center style="width: 100%; background: #F4F6F8; text-align: left;">
+											<div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Inter', sans-serif;">
+												(Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+											</div>
+											<div style="max-width: 680px; margin: auto;" class="email-container">
+												<!--[if mso]>
+												<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+												<tr>
+												<td>
+												<![endif]-->
+												<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container">
+													<tr>
+														<td>
+															<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+																<tr>
+																	<td align="right" style="padding: 30px 0px 10px 0px; font-family: 'Inter', sans-serif; font-size:12px; line-height:22px;">
+																		&nbsp;
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													
+													<tr>
+														<td bgcolor="#ffffff" style="border:1px solid #D8DFE8; ">
+															<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+																<tr>
+																	<td align="center" style="padding: 20px 20px 20px 20px;">
+																		-- ALL CONTENT GOES HERE --
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+																<tr>
+																	<td style="padding: 20px 20px 10px 20px; font-family: 'Inter', sans-serif; font-size: 12px; line-height: 18px; color: #8B8B8B; text-align: center; font-weight:normal;">
+																		<p style="margin: 0;">If you have any issues, please contact <a href="#" target="_blank" style="text-decoration:underline; color:#8B8B8B;">Tradeshift Support</a>.<br />If you don't want to receive future notifications, you can <a href="#" target="_blank" style="text-decoration:underline; color:#8B8B8B;">change your notification settings</a>.</p>
+																	</td>
+																</tr>
+																<tr>
+																	<td style="padding: 20px 20px 40px 20px; font-family: 'Inter', sans-serif; font-size: 12px; line-height: 18px; color: #8B8B8B; text-align: center; font-weight:normal;">
+																		<p style="margin: 0;"><img src="assets/tradeshift.png" width="187" height="32" alt="Tradeshift" border="0">
+																		</p>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+									
+												<!--[if mso]>
+												</td>
+												</tr>
+												</table>
+												<![endif]-->
+											</div>
+										</center>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="mt-5">
+						<div class="row">
+							<div class="col">
+								<h4>Code</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;
+&lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;meta name="viewport" content="width=device-width"&gt;
+ &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+ &lt;meta name="x-apple-disable-message-reformatting"&gt;
+ &lt;title&gt;The title tag shows in email notifications, for some e-mail clients&lt;/title&gt;
+ &lt;!--[if mso]&gt;
+ &lt;style&gt;
+ * {
+  font-family: Arial, sans-serif !important;
+ }
+ &lt;/style&gt;
+ &lt;![endif]--&gt;
+ &lt;!--[if !mso]&gt;&lt;!--&gt;
+ &lt;link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"&gt;
+ &lt;!--&lt;![endif]--&gt;
+ &lt;style&gt;
+  html,
+  body {
+   margin: 0 auto !important;
+   padding: 0 !important;
+   height: 100% !important;
+   width: 100% !important;
+  }
+  * {
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+  }
+  div[style*="margin: 16px 0"] {
+   margin:0 !important;
+  }
+  table,
+  td {
+   mso-table-lspace: 0pt !important;
+   mso-table-rspace: 0pt !important;
+  }
+  table {
+   border-spacing: 0 !important;
+   border-collapse: collapse !important;
+   table-layout: fixed !important;
+   margin: 0 auto !important;
+  }
+  table table table {
+   table-layout: auto;
+  }
+  img {
+   -ms-interpolation-mode:bicubic;
+  }
+  *[x-apple-data-detectors],
+  .x-gmail-data-detectors,
+  .x-gmail-data-detectors *,
+  .aBn {
+   border-bottom: 0 !important;
+   cursor: default !important;
+   color: inherit !important;
+   text-decoration: none !important;
+   font-size: inherit !important;
+   font-family: inherit !important;
+   font-weight: inherit !important;
+   line-height: inherit !important;
+  }
+  .a6S {
+   display: none !important;
+   opacity: 0.01 !important;
+  }
+  img.g-img + div {
+   display:none !important;
+  }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+   .email-container {
+    min-width: 375px !important;
+   }
+  }
+  @media screen and (max-width: 480px) {
+   center {
+    padding: 10px;
+   }
+   .email-container p {
+    font-size: 13px !important;
+    line-height: 16px !important;
+   }
+  }
+ &lt;/style&gt;
+ &lt;!--[if gte mso 9]&gt;
+  &lt;xml&gt;
+   &lt;o:OfficeDocumentSettings&gt;
+   &lt;o:AllowPNG/&gt;
+   &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;&lt;/o:OfficeDocumentSettings&gt;
+  &lt;/xml&gt;
+ &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body width="100%" bgcolor="#F4F6F8" style="margin: 0; mso-line-height-rule: exactly;"&gt;
+ &lt;center style="width: 100%; background: #F4F6F8; text-align: left;"&gt;
+  &lt;div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Inter', sans-serif;"&gt;
+   (Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+  &lt;/div&gt;
+  &lt;div style="max-width: 680px; margin: auto;" class="email-container"&gt;
+   &lt;!--[if mso]&gt;
+    &lt;table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center"&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       &lt;![endif]--&gt;
+       &lt;table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container"&gt;
+        &lt;tr&gt;
+         &lt;td&gt;
+          &lt;table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"&gt;
+           &lt;tr&gt;
+            &lt;td align="right" style="padding: 30px 0px 10px 0px; font-family: 'Inter', sans-serif; font-size:12px; line-height:22px;"&gt;&nbsp;
+            &lt;/td&gt;
+           &lt;/tr&gt;
+          &lt;/table&gt;
+         &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td bgcolor="#ffffff" style="border:1px solid #D8DFE8;"&gt;
+          &lt;table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"&gt;
+          &lt;!-- CONTENT STARTS HERE --&gt;
+           &lt;tr&gt;
+            &lt;td align="left" style="padding: 20px 20px 20px 20px;"&gt;
+             CONTENT HERE
+            &lt;/td&gt;
+           &lt;/tr&gt;
+          &lt;!--CONTENT ENDS HERE --&gt;
+          &lt;/table&gt;
+         &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;
+         &lt;table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"&gt;
+          &lt;tr&gt;
+           &lt;td style="padding: 20px 20px 10px 20px; font-family: 'Inter', sans-serif; font-size: 12px; line-height: 18px; color: #8B8B8B; text-align: center; font-weight:normal; font-style: italic;"&gt;
+            &lt;p style="margin: 0;"&gt;If you have any issues, please contact &lt;a href="#" target="_blank" style="text-decoration:underline; color:#8B8B8B;"&gt;Tradeshift Support&lt;/a&gt;.&lt;br/&gt;If you don't want to receive future notifications, you can &lt;a href="#" target="_blank" style="text-decoration:underline; color:#8B8B8B;"&gt;change your notification settings&lt;/a&gt;&lt;/p&gt;
+           &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+           &lt;td style="padding: 0px 20px 20px 20px; font-family: 'Inter', sans-serif; font-size: 12px; line-height: 18px; color: #8B8B8B; text-align: center; font-weight:normal;"&gt;
+            &lt;p style="margin: 0;"&gt;&lt;img src="img/tradeshift.png" width="187" height="32" alt="Tradeshift" border="0"&gt;&lt;/p&gt;
+           &lt;/td&gt;
+          &lt;/tr&gt;
+         &lt;/table&gt;
+        &lt;/td&gt;
+       &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;!--[if mso]&gt;
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/table&gt;
+  &lt;![endif]--&gt;
+  &lt;/div&gt;
+ &lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
